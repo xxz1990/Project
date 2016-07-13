@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorPrimary">#BC560A</color>
+    <color name="colorPrimaryDark">#BC560A</color>
     <color name="colorAccent">#FF4081</color>
+    <!--按钮 联系我们-->
+    <color name="colorConnectUs">#fc6601</color>
+    <!--用户侧滑栏的字体颜色-->
+    <color name="colorSlidingMenuTextColor">#ffffff</color>
 </resources>

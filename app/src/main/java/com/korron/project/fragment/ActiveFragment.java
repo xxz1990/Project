@@ -7,21 +7,15 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.korron.project.R;
-
 /**
- * Created by milli on 2016/7/12.
+ * Created by milli on 2016/7/13.
  */
-public class ContentFragment extends Fragment {
-
+public class ActiveFragment extends Fragment {
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-
-        View view = inflater.inflate(R.layout.fragment_content,null);
-
-        return view;
+        return super.onCreateView(inflater, container, savedInstanceState);
 
     }
 }
