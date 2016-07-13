@@ -8,4 +8,12 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="ProjectTopText">
+        <item name="android:textColor">@color/colorSlidingMenuTextColor</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:width">0dp</item>
+    </style>
+
 </resources>
