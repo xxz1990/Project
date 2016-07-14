@@ -104,7 +104,7 @@ public class ProjectActivity extends AppCompatActivity {
             }
         });
 
-        ProjectFragment page1 = new ProjectFragment();
+        ProjectFragment page1 = new ProjectFragment(this);
         ActiveFragment page2 = new ActiveFragment();
         CircleFragment page3 = new CircleFragment();
 

@@ -1,36 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:background="#464646"
     android:layout_height="match_parent"
+    android:background="#464646"
     android:orientation="vertical">
 
     <LinearLayout
-        android:background="#464646"
-        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="#464646"
+        android:orientation="horizontal">
 
         <TextView
             android:id="@+id/tv_hangye"
-            android:text="行业分类"
             style="@style/ProjectTopText"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_width="wrap_content" />
+            android:text="行业分类" />
+
         <TextView
-            android:background="@color/colorSlidingMenuTextColor"
             android:layout_width="2px"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:background="@color/colorSlidingMenuTextColor" />
+
         <TextView
             android:id="@+id/tv_xuqiu"
-            android:text="需求分类"
             style="@style/ProjectTopText"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_width="wrap_content" />
+            android:text="需求分类" />
     </LinearLayout>
+
     <View
-        android:background="@color/colorSlidingMenuTextColor"
         android:layout_width="match_parent"
-        android:layout_height="2px"/>
+        android:layout_height="2px"
+        android:background="@color/colorSlidingMenuTextColor" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/srl_project"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recv_project"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+    </android.support.v4.widget.SwipeRefreshLayout>
 
 </LinearLayout>
